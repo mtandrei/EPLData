@@ -3,7 +3,7 @@ import requests
 
 url1 = "https://www.espnfc.us/club/"
 url2 = "/fixtures?leagueId=23"
-clubs = ["afc-bournemouth/349", "arsenal/359", "burnley/379", "chelsea/363", "crystal-palace/384", "everton/368", "hull-city/306", "leicester-city/375", "liverpool/364", "manchester-city/382", "manchester-united/360", "middlesbrough/369", "southampton/376", "stoke-city/336", "sunderland/336", "swansea-city/318", "tottenham-hotspur/367", "watford/395", "west-bromwich-albion/383", "west-ham-united/371"]
+clubs = ["afc-bournemouth/349", "arsenal/359", "burnley/379", "chelsea/363", "crystal-palace/384", "everton/368", "hull-city/306", "leicester-city/375", "liverpool/364", "manchester-city/382", "manchester-united/360", "middlesbrough/369", "southampton/376", "stoke-city/336", "sunderland/366", "swansea-city/318", "tottenham-hotspur/367", "watford/395", "west-bromwich-albion/383", "west-ham-united/371"]
 
 #format urls
 cluburls = ["" for i in range(0, len(clubs))]
